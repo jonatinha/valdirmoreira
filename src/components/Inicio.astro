@@ -1,0 +1,40 @@
+---
+import "@/styles/globals.css";
+import { Image } from "astro:assets";
+---
+
+<div
+    class="w-full bg-white bg-background p-12 gap-2 flex flex-col justify-end items-end relative"
+>
+    <Image
+        src="/nomelogocida.png"
+        alt="Valdir Moreira e Cidadania 23."
+        width="100"
+        height="100"
+        class="absolute left-[-2rem] top-20"
+    />
+    <h2
+        class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-pink-500"
+    >
+        Sobre Mim
+    </h2>
+
+    <p class="text-end text-balance gap-2 flex flex-col">
+        <div>
+            Sou <b class="text-lg">Valdir Moreira</b>,
+        </div><br />
+        <div class="pl-10 text-end">
+            pré-candidato a vereador em Guarulhos. Determinado a fazer a
+            diferença, estou comprometido a trazer melhorias reais para nossa
+            comunidade.
+        </div>
+        <br />
+        <div class="text-justify w-full">
+            Conheço de perto as necessidades da nossa cidade e acredito
+            que pessoas comprometidas podem transformar nossa realidade. Nossa
+            trajetória de perseverança, como a minha de pai de quatro filhos
+            e taxista há 36 anos, demonstra que, juntos, podemos construir uma
+            Guarulhos mais justa e próspera. Conto com você!
+        </div>
+    </p>
+</div>

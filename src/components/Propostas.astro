@@ -1,0 +1,29 @@
+---
+import "@/styles/globals.css";
+import { AccordionPropostas } from "@/components/Accordion.tsx";
+---
+
+<div class="w-full text-white p-6 gap-2 flex flex-col">
+    <h2
+        class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-transparent font-ot-white font-outline-2"
+    >
+        Propostas
+    </h2>
+
+    <p class="">
+        Estamos determinados a promover o desenvolvimento de Guarulhos com
+        propostas concretas e voltadas para as reais necessidades da população.
+        Já demonstramos nossa capacidade de transformar ideias em ações,
+        realizando diversos projetos de impacto em nossa comunidade. Nossas
+        prioridades futuras incluem:
+    </p>
+
+    <AccordionPropostas client:load />
+
+    <p>
+        Com um histórico de perseverança e compromisso, estamos prontos para
+        enfrentar novos desafios e trabalhar incansavelmente por uma Guarulhos
+        mais justa e próspera.Juntos, podemos fazer a diferença e transformar
+        nossa cidade em um lugar melhor para viver.
+    </p>
+</div>
