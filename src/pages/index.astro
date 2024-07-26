@@ -11,10 +11,10 @@ import Propostas from "@/components/Propostas.astro";
 <Layout title="Welcome to Astro.">
 	<div class="flex flex-col justify-center items-center">
 		<div
-			class="flex flex-col items-center justify-center gap-2 h-full relative bg-fit bg-fixed bg-auto bg-top"
+			class="lg:w-1/2 lg:self-end flex flex-col items-center justify-center gap-2 h-full relative bg-fit bg-fixed bg-auto bg-top"
 			style="background-image: url(guarulhos.png);"
 		>
-			<div class="fixed z-30 top-0" style="display: fixed;">
+			<div class="fixed z-40 top-0" style="display: fixed;">
 				<NavigationMenuDemo client:load />
 			</div>
 			<Image
@@ -25,7 +25,7 @@ import Propostas from "@/components/Propostas.astro";
 				class="z-10 w-fit mt-16"
 			/>
 			<div
-				class="w-screen h-full z-20 bg-gradient-to-t from-slate-900/70 via-transparent via-30% to-transparent absolute"
+				class="w-full h-full z-20 bg-gradient-to-t from-slate-900/70 via-transparent via-30% to-transparent absolute"
 			>
 			</div>
 			<Image
@@ -37,8 +37,8 @@ import Propostas from "@/components/Propostas.astro";
 			/>
 		</div>
 
-		<div>
-			<Inicio />
+		<div class="lg:flex-wrap lg:flex-row lg:flex">
+			<Inicio class=""/>
 			<Propostas />
 			<Contato />
 		</div>

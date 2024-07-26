@@ -14,6 +14,7 @@ import {
     NavigationMenuTrigger,
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import { Handshake } from "lucide-react";
 
 const components: { title: string; href: string; description: string }[] = [
     {
@@ -105,26 +106,21 @@ export function NavigationMenuDemo() {
                                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                                         href="/"
                                     >
-                                        
+                                        <Handshake />                                        
                                         <div className="mb-2 mt-4 text-lg font-medium">
-                                            shadcn/ui
+                                            Valdir Moreira
                                         </div>
                                         <p className="text-sm leading-tight text-muted-foreground">
-                                            Beautifully designed components that you can copy and
-                                            paste into your apps. Accessible. Customizable. Open
-                                            Source.
+                                            Transforme Guarulhos com Valdir Moreira. Juntos, faremos a diferença!
                                         </p>
                                     </a>
                                 </NavigationMenuLink>
                             </li>
-                            <ListItem href="/docs" title="Introduction">
-                                Re-usable components built using Radix UI and Tailwind CSS.
+                            <ListItem href="/docs" title="Sobre mim">
+                                Conheça um pouco sobre minha motivação.
                             </ListItem>
-                            <ListItem href="/docs/installation" title="Installation">
-                                How to install dependencies and structure your app.
-                            </ListItem>
-                            <ListItem href="/docs/primitives/typography" title="Typography">
-                                Styles for headings, paragraphs, lists...etc
+                            <ListItem href="/docs/installation" title="Contato">
+                                Fale diretamente comigo, vai ser um prazer atende-lo.
                             </ListItem>
                         </ul>
                     </NavigationMenuContent>
