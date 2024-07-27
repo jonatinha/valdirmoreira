@@ -1,0 +1,49 @@
+---
+import { Facebook } from "lucide-react";
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle,
+} from "./ui/card";
+import { Button } from "./ui/button";
+---
+
+<div
+    id="facebook"
+    class="bg-gradient-to-tl from-blue-400 to-indigo-400 p-12 text-white relative overflow-hidden rounded-3xl rounded-b
+    flex flex-col gap-4"
+>
+    <div class="absolute top-0 right-[-2rem] rotate-12">
+        <Facebook width={100} height={100} />
+    </div>
+    <p>
+        Quer ficar por dentro das novidades, propostas e projetos de Valdir
+        Moreira? Não perca a oportunidade de acompanhar seu trabalho e suas
+        atualizações diretamente no Facebook!
+    </p>
+    <Card>
+        <CardHeader className="items-center">
+            <CardTitle className="text-indigo-500">Facebook</CardTitle>
+            <CardDescription>Nos siga nas redes sociais.</CardDescription>
+        </CardHeader>
+        <CardContent>
+            <a
+                href="https://www.facebook.com/valdir.moreira.792?mibextid=kFxxJD"
+            >
+                <Button
+                    variant="outline"
+                    className="flex flex-row justify-center items-center w-full"
+                    ><Facebook
+                        className="mr-2 h-6 w-6 text-indigo-500"
+                    />Entrar</Button
+                ></a
+            >
+        </CardContent>
+    </Card>
+    <h3>
+        Visite a página do Valdir Moreira e veja como ele está transformando
+        Guarulhos para melhor!
+    </h3>
+</div>

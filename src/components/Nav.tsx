@@ -20,18 +20,18 @@ const components: { title: string; href: string; description: string }[] = [
     
     {
         title: "Sobre Mim",
-        href: "",
+        href: "#sobremim",
         description: "Conheça Valdir Moreira.",
     },
     {
         title: "Propostas para Guarulhos",
-        href: "",
+        href: "#propostas",
         description:
             "Ideias para Guarulhos.",
     },
     {
         title: "Compromissos e Valores",
-        href: "",
+        href: "#compromissos",
         description: "Nossos princípios.",
     },
     {
@@ -48,7 +48,7 @@ const components: { title: string; href: string; description: string }[] = [
     },
     {
         title: "Galeria de Imagens",
-        href: "",
+        href: "#galeria",
         description:
             "Momentos especiais.",
     },
@@ -60,13 +60,13 @@ const components: { title: string; href: string; description: string }[] = [
     },
     {
         title: "Facebook",
-        href: "",
+        href: "#facebook",
         description:
             "Siga-nos no Facebook.",
     },
     {
         title: "Contato",
-        href: "",
+        href: "#contato",
         description:
             "Fale conosco.",
     },

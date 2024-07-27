@@ -2,7 +2,7 @@
 import { Carrossel } from "@/components/Carrosel";
 ---
 
-<div class="flex flex-col justify-center items-center p-12 text-white gap-4 bg-gradient-to-tl from-fuchsia-400 to-pink-400 rounded-lg">
+<div id="galeria" class="rounded-b flex flex-col justify-center items-center p-12 text-white gap-4 bg-gradient-to-tl from-fuchsia-400 to-pink-400 rounded-lg">
     <h2
         class="self-left scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-white"
     >
@@ -19,4 +19,5 @@ import { Carrossel } from "@/components/Carrosel";
         async></script>
 
     <Carrossel client:only />
+    <p class="opacity-70">Deslize para ver mais...</p>
 </div>
