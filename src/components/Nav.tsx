@@ -17,70 +17,65 @@ import {
 import { Handshake } from "lucide-react";
 
 const components: { title: string; href: string; description: string }[] = [
-    {
-        title: "Página Inicial",
-        href: "#",
-        description:
-            "A modal dialog that interrupts the user with important content and expects a response.",
-    },
+    
     {
         title: "Sobre Mim",
-        href: "/docs/primitives/hover-card",
+        href: "#sobremim",
         description:
-            "For sighted users to preview content available behind a link.",
+            "Conheça Valdir Moreira.",
     },
     {
         title: "Propostas para Guarulhos",
-        href: "/docs/primitives/progress",
+        href: "#propostas",
         description:
-            "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
+            "Ideias para Guarulhos.",
     },
     {
         title: "Compromissos e Valores",
-        href: "/docs/primitives/scroll-area",
-        description: "Visually or semantically separates content.",
+        href: "#",
+        description: "Nossos princípios.",
     },
     {
         title: "História e Experiência",
-        href: "/docs/primitives/tabs",
+        href: "#",
         description:
-            "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
+            "Nossa trajetória.",
     },
     {
         title: "Projetos em Andamento",
-        href: "/docs/primitives/tooltip",
+        href: "#",
         description:
-            "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+            "Projetos atuais.",
     },
     {
         title: "Galeria de Imagens",
-        href: "/docs/primitives/tooltip",
+        href: "#",
         description:
-            "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+            "Momentos especiais.",
     },
     {
         title: "Depoimentos",
-        href: "/docs/primitives/tooltip",
+        href: "#",
         description:
-            "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+            "O que dizem.",
     },
     {
         title: "Facebook",
-        href: "/docs/primitives/tooltip",
+        href: "#",
         description:
-            "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+            "Siga-nos no Facebook.",
     },
     {
         title: "Contato",
-        href: "/docs/primitives/tooltip",
+        href: "#contato",
         description:
-            "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+            "Fale conosco.",
     },
     {
         title: "Apoio",
-        href: "/docs/primitives/tooltip",
+        href: "#",
         description:
-            "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+            "Junte-se a nós.",
     },
 ]
 

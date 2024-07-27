@@ -6,6 +6,8 @@ import { Image } from "astro:assets";
 import Inicio from "@/components/Inicio.astro";
 import Contato from "@/components/Contato.astro";
 import Propostas from "@/components/Propostas.astro";
+import Galeria from "@/components/Galeria.astro";
+import Compromisso from "@/components/Compromisso.astro";
 ---
 
 <Layout title="Valdir Moreira Pré Candidato Vereador.">
@@ -38,8 +40,10 @@ import Propostas from "@/components/Propostas.astro";
 		</div>
 
 		<div class="lg:flex-wrap lg:flex-row lg:flex">
-			<Inicio class=""/>
+			<Inicio class="" />
 			<Propostas />
+			<Galeria client:load />
+			<Compromisso />
 			<Contato />
 		</div>
 	</div>
