@@ -13,19 +13,19 @@ import FacebookPage from "@/components/FacebookPage.astro";
 
 <Layout title="Valdir Moreira Pré Candidato Vereador.">
 	<div class="flex flex-col justify-center items-center">
+		<div class="fixed z-40 top-0" style="display: fixed;">
+			<NavigationMenuDemo client:load />
+		</div>
 		<div
-			class="lg:w-1/2 lg:self-end flex flex-col items-center justify-center gap-2 h-full relative bg-fit bg-fixed bg-auto bg-top"
+			class="lg:h-[70vh] overflow-hidden w-full lg:self-end flex flex-col items-center justify-center gap-2 h-full relative bg-fit bg-fixed bg-auto bg-top"
 			style="background-image: url(guarulhos.png);"
 		>
-			<div class="fixed z-40 top-0" style="display: fixed;">
-				<NavigationMenuDemo client:load />
-			</div>
 			<Image
 				src="/Foto.png"
 				alt="A bird."
 				width="200"
 				height="200"
-				class="z-10 w-fit mt-16"
+				class="z-10 w-fit lg:w-[70vh] h-fit mt-16"
 			/>
 			<div
 				class="w-full h-full z-20 bg-gradient-to-t from-slate-900/70 via-transparent via-30% to-transparent absolute"
@@ -36,7 +36,7 @@ import FacebookPage from "@/components/FacebookPage.astro";
 				alt="A bird."
 				width="200"
 				height="50"
-				class="z-30 absolute bottom-6 w-1/2"
+				class="z-30 absolute lg:w-80 bottom-6 w-1/2"
 			/>
 		</div>
 
