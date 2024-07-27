@@ -75,7 +75,7 @@ const components: { title: string; href: string; description: string }[] = [
         href: "",
         description:
             "Junte-se a nós.",
-    },
+    }
 ]
 
 export function NavigationMenuDemo() {
