@@ -20,60 +20,59 @@ const components: { title: string; href: string; description: string }[] = [
     
     {
         title: "Sobre Mim",
-        href: "#sobremim",
-        description:
-            "Conheça Valdir Moreira.",
+        href: "",
+        description: "Conheça Valdir Moreira.",
     },
     {
         title: "Propostas para Guarulhos",
-        href: "#propostas",
+        href: "",
         description:
             "Ideias para Guarulhos.",
     },
     {
         title: "Compromissos e Valores",
-        href: "#",
+        href: "",
         description: "Nossos princípios.",
     },
     {
         title: "História e Experiência",
-        href: "#",
+        href: "",
         description:
             "Nossa trajetória.",
     },
     {
         title: "Projetos em Andamento",
-        href: "#",
+        href: "",
         description:
             "Projetos atuais.",
     },
     {
         title: "Galeria de Imagens",
-        href: "#",
+        href: "",
         description:
             "Momentos especiais.",
     },
     {
         title: "Depoimentos",
-        href: "#",
+        href: "",
         description:
             "O que dizem.",
     },
     {
         title: "Facebook",
-        href: "#",
+        href: "",
         description:
             "Siga-nos no Facebook.",
     },
     {
         title: "Contato",
-        href: "#contato",
+        href: "",
         description:
             "Fale conosco.",
     },
     {
         title: "Apoio",
-        href: "#",
+        href: "",
         description:
             "Junte-se a nós.",
     },
