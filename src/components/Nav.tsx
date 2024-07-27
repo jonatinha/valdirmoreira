@@ -34,30 +34,30 @@ const components: { title: string; href: string; description: string }[] = [
         href: "#compromissos",
         description: "Nossos princípios.",
     },
-    {
-        title: "História e Experiência",
-        href: "",
-        description:
-            "Nossa trajetória.",
-    },
-    {
-        title: "Projetos em Andamento",
-        href: "",
-        description:
-            "Projetos atuais.",
-    },
+    // {
+    //     title: "História e Experiência",
+    //     href: "",
+    //     description:
+    //         "Nossa trajetória.",
+    // },
+    // {
+    //     title: "Projetos em Andamento",
+    //     href: "",
+    //     description:
+    //         "Projetos atuais.",
+    // },
     {
         title: "Galeria de Imagens",
         href: "#galeria",
         description:
             "Momentos especiais.",
     },
-    {
-        title: "Depoimentos",
-        href: "",
-        description:
-            "O que dizem.",
-    },
+    // {
+    //     title: "Depoimentos",
+    //     href: "",
+    //     description:
+    //         "O que dizem.",
+    // },
     {
         title: "Facebook",
         href: "#facebook",
@@ -70,12 +70,12 @@ const components: { title: string; href: string; description: string }[] = [
         description:
             "Fale conosco.",
     },
-    {
-        title: "Apoio",
-        href: "",
-        description:
-            "Junte-se a nós.",
-    }
+    // {
+    //     title: "Apoio",
+    //     href: "",
+    //     description:
+    //         "Junte-se a nós.",
+    // }
 ]
 
 export function NavigationMenuDemo() {
@@ -91,14 +91,15 @@ export function NavigationMenuDemo() {
                     </NavigationMenuLink>         
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Sobre Mim</NavigationMenuTrigger>
+                    <NavigationMenuTrigger><NavigationMenuLink asChild><a href="#sobremim">Sobre Mim</a></NavigationMenuLink></NavigationMenuTrigger>
+                    
                     <NavigationMenuContent className="">
                         <ul className="h-90 grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                             <li className="row-span-3">
                                 <NavigationMenuLink asChild>
                                     <a
                                         className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                        href="/"
+                                        href="#sobremim"
                                     >
                                         <Handshake />                                        
                                         <div className="mb-2 mt-4 text-lg font-medium">
@@ -110,10 +111,10 @@ export function NavigationMenuDemo() {
                                     </a>
                                 </NavigationMenuLink>
                             </li>
-                            <ListItem href="/docs" title="Sobre mim">
+                            <ListItem href="#sobremim" title="Sobre mim">
                                 Conheça um pouco sobre minha motivação.
                             </ListItem>
-                            <ListItem href="/docs/installation" title="Contato">
+                            <ListItem href="#contato" title="Contato">
                                 Fale diretamente comigo, vai ser um prazer atende-lo.
                             </ListItem>
                         </ul>
