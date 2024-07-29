@@ -70,12 +70,12 @@ const components: { title: string; href: string; description: string }[] = [
         description:
             "Fale conosco.",
     },
-    // {
-    //     title: "Apoio",
-    //     href: "",
-    //     description:
-    //         "Junte-se a nós.",
-    // }
+    {
+        title: "Apoio",
+        href: "#apoio",
+        description:
+            "Junte-se a nós.",
+    }
 ]
 
 export function NavigationMenuDemo() {
