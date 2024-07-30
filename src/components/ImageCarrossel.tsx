@@ -33,6 +33,11 @@ const images: Images[] = [
         url: '/nomelogocida.png',
         alt: 'Descrição da imagem 3'
     },
+    {
+        id: 'image3',
+        url: '/valdireooutro.png',
+        alt: 'Descrição da imagem 3'
+    },
     // Adicione mais imagens aqui
 ];
 

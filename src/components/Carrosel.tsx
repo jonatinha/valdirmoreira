@@ -21,6 +21,15 @@ const videos: Video[] = [
         id: 'la3yr2c8dc',
         embedCode: 'la3yr2c8dc'
     },
+    
+    {
+        id: '9r0a21b7gp',
+        embedCode: '9r0a21b7gp'
+    },
+    {
+        id: '6asvi3gl85',
+        embedCode: '6asvi3gl85'
+    },
     {
         id: 'xwl6mtwtfb',
         embedCode: 'xwl6mtwtfb'

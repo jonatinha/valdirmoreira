@@ -1,5 +1,5 @@
 ---
-import { Facebook, HeartHandshake, Phone } from "lucide-react";
+import { Facebook, HeartHandshake, Instagram, Phone } from "lucide-react";
 import {
     Card,
     CardContent,
@@ -14,7 +14,7 @@ import { Separator } from "./ui/separator";
 
 <div
     id="apoio"
-    class="lg:w-1/2 lg:rounded-none bg-gradient-to-tl from-white to-white p-12 relative overflow-hidden
+    class="w-full lg:rounded-none bg-gradient-to-tl from-white to-white p-12 relative overflow-hidden
     flex flex-col gap-4"
 >
     <div class="absolute top-2 right-[-2rem] rotate-[-20deg] text-blue-500">
@@ -37,9 +37,7 @@ import { Separator } from "./ui/separator";
             <CardDescription>Fale diretamente comigo.</CardDescription>
         </CardHeader>
         <CardContent>
-            <a
-                href=""
-            >
+            <a href="">
                 <Button
                     variant="outline"
                     className="flex flex-row justify-center items-center w-full"
@@ -69,12 +67,33 @@ import { Separator } from "./ui/separator";
             >
         </CardContent>
     </Card>
+    <Card>
+        <CardHeader className="items-center">
+            <CardTitle className="text-fuchsia-500">Instagram</CardTitle>
+            <CardDescription>Nos siga nas redes sociais.</CardDescription>
+        </CardHeader>
+        <CardContent>
+            <a href="https://www.instagram.com/valdirmoreira.23/">
+                <Button
+                    variant="outline"
+                    className="flex flex-row justify-center items-center w-full"
+                    ><Instagram
+                        className="mr-2 h-6 w-6 text-fuchsia-500"
+                    />Conheça</Button
+                ></a
+            >
+        </CardContent>
+    </Card>
 
     <h3>Junte-se a nós para transformar Guarulhos!</h3>
 
     <br />
     <Separator />
-    <br>
-    <h3 class="text-lg w-full text-center text-slate-900 opacity-50">#valdirmoreira - #Cidadania23</h3>
-    <br>
+
+    
+    <br />
+    <h3 class="text-lg w-full text-center text-slate-900 opacity-50">
+        #valdirmoreira - #Cidadania23
+    </h3>
+    <br />
 </div>
