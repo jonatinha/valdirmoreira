@@ -1,8 +1,11 @@
 ---
 import "@/styles/globals.css";
 import { Image } from "astro:assets";
+import Video from "./Video";
 ---
 
+<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+<Video client:only />
 <div
     id="sobremim"
     class="w-full bg-white bg-background p-12 gap-2 flex flex-col items-end relative lg:w-1/2 snap-top snap-always"
@@ -12,7 +15,7 @@ import { Image } from "astro:assets";
         alt="Valdir Moreira e Cidadania 23."
         width="100"
         height="100"
-        class="absolute left-[-1rem] top-[10rem] rotate-[-1deg]"
+        class="absolute left-[-1rem] bottom-[10rem] rotate-[-1deg]"
     />
     <h2
         class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-blue-500"

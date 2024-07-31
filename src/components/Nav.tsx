@@ -91,7 +91,7 @@ export function NavigationMenuDemo() {
                     </NavigationMenuLink>         
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger><NavigationMenuLink asChild><a href="#sobremim">Sobre Mim</a></NavigationMenuLink></NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Sobre Mim</NavigationMenuTrigger>
                     
                     <NavigationMenuContent className="">
                         <ul className="h-90 grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">

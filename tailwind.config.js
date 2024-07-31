@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+          'ponte': "url('/public/ponte.jpg')"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
