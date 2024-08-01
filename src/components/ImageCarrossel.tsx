@@ -43,7 +43,7 @@ const images: Images[] = [
 
 export function ImageCarrossel() {
     return (
-        <Carousel className="w-full max-w-xs">
+        <Carousel className="w-full max-w-xs lg: max-w-[40rem]">
             <CarouselContent>
                 {images.map((image, index) => (
                     <CarouselItem key={index}>

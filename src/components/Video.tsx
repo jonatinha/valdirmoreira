@@ -3,7 +3,7 @@ import React from 'react';
 const Video: React.FC = () => {
 
     return (
-        <div className="w-full lg:w-1/2 flex flex-row items-center justify-center">
+        <div className="w-full flex flex-row items-center justify-center lg:px-60">
 
         
         <div className="wistia_responsive_padding w-full " style={{ paddingTop: '56.25%', position: 'relative' }}>
