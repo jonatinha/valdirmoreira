@@ -1,0 +1,40 @@
+---
+interface Props {
+	title: string;
+}
+import "@/styles/globals.css";
+import { ArrowLeft } from "lucide-react";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Venha com a gente mudar Guarulhos pra melhor!"
+		/>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body
+		class="flex flex-col"
+		style="background: linear-gradient(160deg, #2cdaae, #2cd4da); min-height: 100vh;"
+	>
+		<div class="text-white flex flex-row items-center text-lg p-2">
+			<a href="/">
+				<div
+					class="fixed top-2 backdrop-blur-md bg-emerald-800/50 text-white flex flex-row items-center text-lg p-2 border border-2 rounded-full"
+				>
+					<ArrowLeft width={24} height={24} />Voltar
+				</div>
+			</a>
+		</div>
+		<div class="gap-2 flex flex-col p-4 text-white text-lg gap-4 pt-12">
+			<slot />
+		</div>
+	</body>
+</html>
